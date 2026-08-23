@@ -1,0 +1,136 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Replica</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net10.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <Nullable>annotations</Nullable>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Replica</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Resources\Binaries\eyewarn.bin" />
+    <None Remove="Resources\Binaries\Share2_6m_5s_omen.bin" />
+    <None Remove="Resources\Binaries\ShareLazer5sGround.bin" />
+    <None Remove="Resources\Binaries\TankFan90.bin" />
+    <None Remove="Resources\Binaries\tank_lockon_3m_5s_noc.bin" />
+    <None Remove="Resources\Binaries\tank_lockon_5m_5s_noc.bin" />
+    <None Remove="Resources\Binaries\tank_lockon_8s_noc.bin" />
+    <None Remove="Resources\Binaries\tmp_circle.bin" />
+    <None Remove="Resources\Binaries\tmp_donut.bin" />
+    <None Remove="Resources\Binaries\tmp_fan.bin" />
+    <None Remove="Resources\Binaries\tmp_org_donut.bin" />
+    <None Remove="Resources\Binaries\tmp_org_fan.bin" />
+    <None Remove="Resources\Binaries\tmp_rect.bin" />
+    <None Remove="Resources\Binaries\tmp_rect2.bin" />
+    <None Remove="Resources\Images\replica_logo.png" />
+    <EmbeddedResource Include="Resources\Binaries\eyewarn.bin" LogicalName="Replica.Engine.Resources.eyewarn.bin" />
+    <EmbeddedResource Include="Resources\Binaries\Share2_6m_5s_omen.bin" LogicalName="Replica.Engine.Resources.Share2_6m_5s_omen.bin" />
+    <EmbeddedResource Include="Resources\Binaries\ShareLazer5sGround.bin" LogicalName="Replica.Engine.Resources.ShareLazer5sGround.bin" />
+    <EmbeddedResource Include="Resources\Binaries\TankFan90.bin" LogicalName="Replica.Engine.Resources.TankFan90.bin" />
+    <EmbeddedResource Include="Resources\Binaries\tank_lockon_3m_5s_noc.bin" LogicalName="Replica.Engine.Resources.tank_lockon_3m_5s_noc.bin" />
+    <EmbeddedResource Include="Resources\Binaries\tank_lockon_5m_5s_noc.bin" LogicalName="Replica.Engine.Resources.tank_lockon_5m_5s_noc.bin" />
+    <EmbeddedResource Include="Resources\Binaries\tank_lockon_8s_noc.bin" LogicalName="Replica.Engine.Resources.tank_lockon_8s_noc.bin" />
+    <EmbeddedResource Include="Resources\Binaries\tmp_circle.bin" LogicalName="Replica.Engine.Resources.tmp_circle.bin" />
+    <EmbeddedResource Include="Resources\Binaries\tmp_donut.bin" LogicalName="Replica.Engine.Resources.tmp_donut.bin" />
+    <EmbeddedResource Include="Resources\Binaries\tmp_fan.bin" LogicalName="Replica.Engine.Resources.tmp_fan.bin" />
+    <EmbeddedResource Include="Resources\Binaries\tmp_org_donut.bin" LogicalName="Replica.Engine.Resources.tmp_org_donut.bin" />
+    <EmbeddedResource Include="Resources\Binaries\tmp_org_fan.bin" LogicalName="Replica.Engine.Resources.tmp_org_fan.bin" />
+    <EmbeddedResource Include="Resources\Binaries\tmp_rect.bin" LogicalName="Replica.Engine.Resources.tmp_rect.bin" />
+    <EmbeddedResource Include="Resources\Binaries\tmp_rect2.bin" LogicalName="Replica.Engine.Resources.tmp_rect2.bin" />
+    <EmbeddedResource Include="Resources\Images\replica_logo.png" LogicalName="Replica.images.replica_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FFXIVClientStructs">
+      <HintPath>C:\Users\Holym\AppData\Roaming\XIVLauncher\addon\Hooks\15.0.3.2\FFXIVClientStructs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Dalamud">
+      <HintPath>C:\Users\Holym\AppData\Roaming\XIVLauncher\addon\Hooks\15.0.3.2\Dalamud.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Lumina">
+      <HintPath>C:\Users\Holym\AppData\Roaming\XIVLauncher\addon\Hooks\15.0.3.2\Lumina.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Lumina.Excel">
+      <HintPath>C:\Users\Holym\AppData\Roaming\XIVLauncher\addon\Hooks\15.0.3.2\Lumina.Excel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Dalamud.Bindings.ImGui">
+      <HintPath>C:\Users\Holym\AppData\Roaming\XIVLauncher\addon\Hooks\15.0.3.2\Dalamud.Bindings.ImGui.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis">
+      <HintPath>lib\Microsoft.CodeAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.CSharp">
+      <HintPath>lib\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Loader">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Runtime.Loader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="InteropGenerator.Runtime">
+      <HintPath>C:\Users\Holym\AppData\Roaming\XIVLauncher\addon\Hooks\15.0.3.2\InteropGenerator.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Penumbra.String">
+      <HintPath>lib\Penumbra.String.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>lib\System.IO.Hashing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Security.Cryptography.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Replica.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="scratch\**" />
+    <None Remove="scratch\**" />
+  </ItemGroup>
+</Project>
