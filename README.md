@@ -2,6 +2,20 @@
 
 A comprehensive, private FFXIV Dalamud plugin designed for high-end raiding, featuring a dedicated, secure in-game Party Finder, real-time 3D encounter mirroring, advanced mechanic solvers, custom triggers, step-by-step strategy slides, and an interactive live radar.
 
+## ⚙️ Installation
+
+To install **Replica**, follow these steps:
+
+1. Open the in-game chat and type `/xlsettings` to open the Dalamud Settings.
+2. Go to the **Experimental** tab.
+3. Paste the following URL into the first empty slot under **Custom Plugin Repositories**:
+   ```text
+   https://raw.githubusercontent.com/nightraidwiki/Replica-Stable/main/pluginmaster.json
+   ```
+4. Click the **+** (Add) button, then click **Save and Close**.
+5. Open the Plugin Installer by typing `/xlplugins` in the chat.
+6. Search for **Replica** and click **Install**.
+
 ---
 
 ## 🚀 Getting Started
