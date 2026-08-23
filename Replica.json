@@ -1,0 +1,28 @@
+﻿{
+    "Author":  "Amadeus",
+    "Name":  "Replica",
+    "InternalName":  "Replica",
+    "AssemblyVersion":  "1.0.6.83",
+    "Description":  "A dedicated Party Finder tailored for the plugin-enabled community, featuring real-time 3D BossMod mirroring, advanced mechanic drawing and solving, and essential helper tools.",
+    "ApplicableVersion":  "any",
+    "Tags":  [
+                 "triggers",
+                 "vfx",
+                 "draw",
+                 "raid"
+             ],
+    "CategoryTags":  [
+                         "utility",
+                         "combat"
+                     ],
+    "DalamudApiLevel":  15,
+    "LoadRequiredState":  0,
+    "LoadSync":  false,
+    "CanUnloadAsync":  false,
+    "LoadPriority":  0,
+    "Punchline":  "A dedicated Party Finder for plugin users, featuring 3D BossMod mirroring and mechanic solving.",
+    "AcceptsFeedback":  true,
+    "LastUpdate":  1787502843,
+    "RepoUrl":  "https://github.com/nightraidwiki/Replica-Stable",
+    "IconUrl":  "https://raw.githubusercontent.com/nightraidwiki/Replica-Stable/main/images/icon.png"
+}
