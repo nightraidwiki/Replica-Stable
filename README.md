@@ -10,7 +10,7 @@ To install **Replica**, follow these steps:
 2. Go to the **Experimental** tab.
 3. Paste the following URL into the first empty slot under **Custom Plugin Repositories**:
    ```text
-   https://raw.githubusercontent.com/nightraidwiki/Replica-Stable/main/pluginmaster.json
+   https://raw.githubusercontent.com/nightraidwiki/dalamud-plugins/main/pluginmaster.json
    ```
 4. Click the **+** (Add) button, then click **Save and Close**.
 5. Open the Plugin Installer by typing `/xlplugins` in the chat.
